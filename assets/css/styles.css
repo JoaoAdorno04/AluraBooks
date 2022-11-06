@@ -10,7 +10,8 @@
     --cor-branco: #FFFFFF;
     --cor-laranja: #EB9B00;
     --cor-azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --cor-azul-escuro: rgba(0, 47, 82, 1)
+    --cor-azul-escuro: rgba(0, 47, 82, 1);
+    --fonte-titulo: "Josefin Sans";
 
 }
 
