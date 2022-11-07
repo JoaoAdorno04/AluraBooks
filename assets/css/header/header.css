@@ -74,7 +74,7 @@
 }
 
 .container__botao:checked ~ .container__rotulo>.cabecalho__menu-hamburguer {
-    background-image: url(../../img/menuAberto.svg);
+    background-image: url("../../img/menuAberto.svg");
 }
 
 .container__botao:checked ~ .container__rotulo {
@@ -123,6 +123,24 @@
     }
     #opcoes-menu {
         display: none;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--cor-azul-gradiente);
+        color: var(--cor-branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--cor-azul-gradiente);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--cor-branco);
+        text-decoration: none;
     }
 }
 
